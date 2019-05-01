@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,9 @@
 
     <link rel="stylesheet" type="text/css" href="./css/header_footer.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
     <title>Benjis | Your ideas to web</title>
 </head>
@@ -116,24 +124,62 @@ We implement industry standard techniques when that vibe well in your market.</p
         </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <h2>
-                <!-- Generate through php -->
-                </h2>
-                <p>
-                <!-- Generate through php -->
-                </p>
+    <section id='section-four'>
+        <div id='so-four-left'>
+            <div id='so-four-left-info'>
+                <img src='./images/kids-motto.png' />
+                <div id='so-four-left-widget'>
+                    <h2>
+                    <!-- Generate through php -->Generated Title
+                    </h2>
+                    <p>
+                    <!-- Generate through php -->
+                    Generated Description
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div>
+        <div id='so-four-right'>
             <!-- Generate through PHP? -->
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
+
+            <div class='panel'>
+                <img src="./images/kids-motto.png" alt="">
+                <h1>This is a header</h1>
+            </div>
         </div>
     </section>
 
-    <section>
+    <section id='email-section'>
 
         <div>  
             <h2>
@@ -145,6 +191,11 @@ We implement industry standard techniques when that vibe well in your market.</p
         </div>
     
     </section>
+
+    <footer>
+        <!-- <img alt='footer logo image'/> -->
+        <p>Benjis</p>
+    </footer>
 
 
 </body>
